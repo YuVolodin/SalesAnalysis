@@ -131,7 +131,6 @@ wedges, texts, autotexts = ax4.pie(category_revenue.values,
                                     startangle=90)
 ax4.set_title('Распределение выручки по категориям', fontsize=14, fontweight='bold')
 
-# Делаем диаграмму красивее
 for autotext in autotexts:
     autotext.set_color('white')
     autotext.set_fontweight('bold')
